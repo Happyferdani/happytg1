@@ -1,0 +1,30 @@
+.navigasi {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+.navigasi > li {
+  list-style-type: none;
+  padding: 15px;
+  background-color: yellow;
+  margin: 10px;
+}
+.navigasi > li > a {
+  color: black;
+  font-size: 30px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+body {
+  margin-left: 30px;
+  margin-top: 30px;
+}
+p {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 32px;
+}
+li:hover {
+  background-color: green;
+  transition-duration: 0.5s;
+}
